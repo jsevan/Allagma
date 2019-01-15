@@ -1,0 +1,14 @@
+Class="bg-form" ----> Adding background image to the website.
+
+Class="container-form" ----> Adding tint on top of background image.
+
+Class="wrap-form" ----> Adding a white box around the content in the form box.
+
+Class="content-form" ----> Adding content in the form box.
+
+Class="content-form-title" ----> Adding main title in the form box.
+
+Class="boxed" ----> Adding text boxes in the form box.
+
+
+Each class has its own font style and design that can be modified in CSS.

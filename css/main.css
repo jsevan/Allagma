@@ -1,0 +1,151 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
+}
+
+/*---------------------------------------------*/
+a {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #57b846;
+}
+
+/*---------------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Background image ]*/
+.bg-form {
+  width: 100%;
+  background-image: url('../images/logo2.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Background color tint ]*/
+.container-form {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  padding: 25px;
+  background: rgba(45, 66, 83, 0.69);
+  background: -webkit-linear-gradient(45deg, rgba(45, 66, 83, 0.69), rgba(45, 66, 83, 1));
+  background: -o-linear-gradient(45deg, rgba(45, 66, 83, 0.69), rgba(45, 66, 83, 0.69));
+  background: -moz-linear-gradient(45deg, rgba(45, 66, 83, 0.69), rgba(45, 66, 83, 0.69));
+  background: linear-gradient(45deg, rgba(45, 66, 83, 0.69), rgba(45, 66, 83, 0.69));
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Form box-content ]*/
+.wrap-form {
+  width: 100%;
+  min-height: 90vh;
+  background: #fff;
+  border-radius: 10px;
+  padding: 22px 55px 20px 55px;
+}
+
+
+.content-form {
+  width: 100%;
+}
+
+.content-form-title {
+  display: block;
+  font-family: Poppins-Bold;
+  font-size: 39px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Text box ]*/
+.boxed {
+  border: 1px solid rgba(49,67,124,1) ;
+  padding-bottom: 50px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 30px;
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  line-height: 1.7;	
+  color: #666666;
+}
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 576px) {
+  .wrap-form {
+    padding: 72px 15px 90px 15px;
+  }
+}
